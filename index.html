@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReposBarberos</title>
+    <style>
+        header{background-image: url(obrazky/WhatsApp\ Image\ 2026-04-15\ at\ 17.26.34.jpeg);
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        flex-direction: column;
+
+        display: flex;             
+        justify-content: center;
+        align-items: center;
+        color: white;}
+
+        header a {
+        margin-top: 90px;
+        padding: 5px 20px;
+        background: white;
+        color: black;
+        text-decoration: none;
+        border-radius: 8px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+        header a:hover{
+        background:black;
+        color:white;}
+
+        ul{
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        margin: 8px 0;
+        font-size: 18px;}
+
+        table , th, td{border: 1px solid black}
+
+        table{border-collapse: collapse;
+        margin:auto;
+        width: 70%;}
+
+        td{padding: 15px;}
+
+        h2{text-transform: uppercase;
+        border: 5px;
+        text-align: center;}
+        
+        .tmava{background-color:dimgray;
+        border: 1px solid black;}
+
+        .bleda{background-color: darkgrey;
+        border: 1px solid black;}
+
+        body{margin:0;
+        font-family: Arial, sans-serif;}
+        
+        section{padding: 40px 20px;}
+
+        nav {
+        background-color:dimgray;
+        border-bottom: 1px solid black;
+        padding: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;}
+
+        nav a {
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 1em;}
+
+        nav a:hover {
+        background-color: darkgray;
+        color: white;}
+
+        html{
+        scroll-behavior:smooth;}
+
+        .galeria{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:10px;}
+
+        .galeria img{
+        border-radius:15px;}
+        
+        input[type=text]{
+        border: 2px solid dimgray;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 5px;
+        outline: none;}
+
+        button{background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 20px;}
+
+        button:hover{
+        background-color: dimgray;}
+
+        fieldset{border: 1px solid black;
+        padding: 15px;}
+
+        footer{
+        background:white;
+        color:black;
+        padding:40px 20px;}
+
+    </style>
+</head>
+<body>
+    <header>
+    <h1>ReposBarberos</h1>
+    <a href="https://booqme.sk/sk/rezervacia/reposbarberos2">
+        OBJEDNAJ SA
+    </a>
+    </header>
+    <section>
+        <nav><a href="#o_mne">O MNE</a>  <a href="#otvaracie_hodiny">OTVÁRACIE HODINY</a> <a href="#cennik">CENNÍK</a><a href="#moje_prace">MOJE PRÁCE</a><a href="#rezervacia">REZERVACIA</a><a href="#kontakt">KONTAKT</a></nav>
+    </section>
+    <section class="bleda" id="o_mne">
+    <h2>O mne</h2>
+    <div>Pracujem v kľudnom prostredí, kde máš čas na seba a všetko robím bez zbytočného stresu. Sledujem trendy, zlepšujem sa a dávam do toho maximum, pretože barberstvo ma naozaj baví.
+    Strihám s dôrazom na detail, štýl a celkový výsledok. Každý strih beriem individuálne tak, aby presne sedel tebe a tvojmu štýlu. Nejde len o vlasy – ide o to, aby si odchádzal s pocitom istoty a spokojnosti.
+    Ak chceš kvalitný strih a prístup, ktorý nie je len o rýchlej práci, objednaj sa a príď sa presvedčiť.</div>
+    </section>
+    <section class="tmava" id="otvaracie_hodiny">
+    <h2>Otváracie hodiny</h2>
+    <ul>
+        <li>pondelok: 15:00 - 20:00</li>
+        <li>utorok: 15:00 - 20:00</li>
+        <li>streda: 14:00 - 20:00</li>
+        <li>štvrtok: 14:00 - 20:00</li>
+        <li>piatok: 14:00 - 20:00</li>
+        <li>sobota: 9:00 - 21:00</li>
+        <li>nedela:  9:00 - 21:00</li>
+    </ul>
+    </section>
+    <section class="bleda" id="cennik">
+    <h2>Cennik</h2>
+    <table>
+        <tr>
+            <td><strong>Služba</strong></td>
+            <td><strong>Typ</strong></td>
+            <td><strong>Cena</strong></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Vlasy</td>
+            <td>Pánsky strih</td>
+            <td>15 &euro;</td>
+        </tr>
+        <tr>
+            <td>Pánsky strih + vzor</td>
+            <td>18 &euro;</td>
+        </tr>
+        <tr>
+            <td>Brada</td>
+            <td>Úprava brady</td>
+            <td>10 &euro;</td>
+        </tr>
+        <tr>
+            <td>Komplet</td>
+            <td>Pánsky strih + úprava brady</td>
+            <td>16 &euro;</td>
+        </tr>
+    </table>
+    </section>
+    <section class="tmava" id="moje_prace">
+    <h2>Moje práce</h2>
+    <div class="galeria">
+    <img src="obrazky/WhatsApp Image 2026-04-16 at 23.18.05.jpeg" alt="foto 1" width="160">
+    <img src="obrazky/WhatsApp Image 2026-04-16 at 23.18.52.jpeg" alt="foto 2" width="160">
+    <img src="obrazky/WhatsApp Image 2026-04-16 at 23.18.06.jpeg" alt="foto 3" width="160">
+    <img src="obrazky/WhatsApp Image 2026-04-16 at 23.18.05 (2).jpeg" alt="foto 4" width="160">
+    <img src="obrazky/WhatsApp Image 2026-04-16 at 23.18.05 (1).jpeg" alt="foto 5" width="160">
+    <img src="obrazky/WhatsApp Image 2026-04-16 at 23.18.06 (1).jpeg" alt="foto 6" width="160">
+    <img src="obrazky/WhatsApp Image 2026-04-16 at 23.18.03 (1).jpeg" alt="foto 7" width="160">
+    <img src="obrazky/WhatsApp Image 2026-04-16 at 23.18.03 (2).jpeg" alt="foto 8" width="160">
+    <img src="obrazky/WhatsApp Image 2026-04-16 at 23.18.03 (3).jpeg" alt="foto 9" width="160"><br>
+    </div>
+    </section>
+    <section class="bleda" id="rezervacia">
+    <h2>Rezervácia</h2>
+    <form>
+    <label for="meno">Meno : </label><input type="text" name="Meno" required id="meno" size="20"><br>
+    <label for="mobil">Mobil : </label><input type="text" name="Mobil" value="+421" size="15" required id="mobil"><br>
+    <label for="e-mail">E-mail : </label><input type="text" name="E-mail" value="@" size="30" id="e-mail"><br>
+    <button type="submit" value="odosli" name="odosli">Odoslať</button>
+    </form>
+    </section>
+    <footer id="kontakt">
+    <div>
+    <h2>Kontakt</h2>
+    <h3>Tureň</h3>
+    <address>Tureň 70,903 01 Senec<br> tel. +421 904 591 877<br> email: reposbarberos1@gmai.com </address>
+    </div>
+    <div>
+    <p>Sleduj ma na</p>
+    <a href="https://www.instagram.com/_repos_barberos_/" title="Instagram" target="_blank"><img src="obrazky/ig.jpg" width="40" height="40" alt="ico-facebook"></a>
+    <a href="https://www.facebook.com/david.repa.71?locale=sk_SK" title="Facebook" target="_blank"><img src="obrazky/ico-fb.png" width="40" height="40" alt="ico-facebook"></a>
+    </div>
+    </footer>
+</body>
+</html>
